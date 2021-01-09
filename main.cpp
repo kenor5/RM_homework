@@ -44,7 +44,7 @@ int main() {
     dilate(dst, dst, element);
     dilate(dst, dst, element);
     dilate(dst, dst, element);
-
+// 矩形拟合还不太会，这一部分代码是找别人的。
     Mat img1, img2;
     src.copyTo(img1);  //深拷贝用来绘制最大外接矩形
     src.copyTo(img2);
